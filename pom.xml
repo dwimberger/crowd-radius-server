@@ -109,10 +109,18 @@
             <version>${logback-version}</version>
         </dependency>
         
+        <!-- tinyradius -->
+        <dependency>
+            <groupId>com.hynnet</groupId>
+            <artifactId>tinyradius</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+
+        <!-- Last version of crowd rest client -->
         <dependency>
            <groupId>com.atlassian.crowd</groupId>
            <artifactId>crowd-integration-client-rest</artifactId>
-            <version>2.3.6</version>
+            <version>3.1.2</version>
         </dependency>
     </dependencies>
 
